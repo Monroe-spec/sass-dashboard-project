@@ -6,9 +6,15 @@ body {
   margin: 0px;
 }
 
+.big-container {
+  display: flex;
+}
+
 nav {
   width: 200px;
-  height: auto;
+  height: 100vh;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   background-color: rgb(88, 88, 88);
   padding: 15px 0;
   margin: 10px;
@@ -90,4 +96,29 @@ nav {
   border: 2px solid white;
   margin-right: 5px;
   margin-left: 5px;
+}
+
+main {
+  background-color: rgb(88, 88, 88);
+  height: 100vh;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  width: 100%;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  margin: 10px 10px 10px 0px;
+  border-radius: 40px;
+  display: flex;
+}
+main .content-section {
+  display: none;
+}
+main .content-section:target {
+  display: block;
+}
+main .landing {
+  display: block;
+}
+main .landing:not(:target) {
+  display: none;
 }/*# sourceMappingURL=dashboard.css.map */
