@@ -6,58 +6,69 @@
     <title>Document Title</title>
 </head>
 <body>
+    <div class="action-bar">
+        <div class="dashboard-logos">
+            <img src="images/social-contact-svgrepo-com.svg" alt="website logo">
+            <p>RPG Character Maker</p>
+        </div>
+        <div class="dashboard-profile">
+            <a href="#">
+                <img src="https://tinyurl.com/yc2p5mfn" alt="Profile Image"/>
+                <p>Mr-Knuckles</p>
+            </a>
+        </div>
+    </div>
     <div class="big-container">
         <nav>
-            <div class="dashboard-logos">
-                <img src="images/social-contact-svgrepo-com.svg" alt="website logo">
-                <p>RPG Character Maker</p>
-            </div>
             <div class="dbb">
-                <a href="#section1" class="dbutton">
+                <input type="radio" name="tabs" id="tab1" class="tab-input" checked>
+                <label for="tab1" class="tab-label">
                     <span>Character</span>
                     <img src="images/personal-account-account-svgrepo-com.svg" alt="character image">
-                </a>
-                <a href="#section2" class="dbutton">
+                </label>
+        
+                <input type="radio" name="tabs" id="tab2" class="tab-input">
+                <label for="tab2" class="tab-label">
                     <span>Appearance</span>
                     <img src="images/eye-password-eye-password-svgrepo-com.svg" alt="eye image">
-                </a>
-                <a href="#section3" class="dbutton">
+                </label>
+        
+                <input type="radio" name="tabs" id="tab3" class="tab-input">
+                <label for="tab3" class="tab-label">
                     <span>Class</span>
                     <img src="images/pencil-revision-svgrepo-com.svg" alt="pencil image">
-                </a>
-                <a href="#section4" class="dbutton">
+                </label>
+        
+                <input type="radio" name="tabs" id="tab4" class="tab-input">
+                <label for="tab4" class="tab-label">
                     <span>Stats</span>
                     <img src="images/record-svgrepo-com.svg" alt="sheet paper image">
-                </a>
-                <a href="#section5" class="dbutton">
+                </label>
+        
+                <input type="radio" name="tabs" id="tab5" class="tab-input">
+                <label for="tab5" class="tab-label">
                     <span>Inventory</span>
                     <img src="images/toolbox-svgrepo-com.svg" alt="toolbox image">
-                </a>
-            </div>
-            <div class="dashboard-profile">
-                <a href="#">
-                    <img src="https://tinyurl.com/yc2p5mfn" alt="Profile Image"/>
-                    <p>Mr-Knuckles</p>
-                </a>
+                </label>
             </div>
         </nav>
         <main>
-            <div id="section1" class="landing">
-                <h2>Character</h2>
+            <div id="section1" class="content-section character">
+                <h1>Character</h1>
                 <p>Blah Blah Blah Blah Blah</p>
             </div>
-            <div id="section2" class="content-section">
-                <h2>Apearance</h2>
+            <div id="section2" class="content-section appearance">
+                <h1>Apearance</h1>
                 <p>La La La La La</p>
             </div>
-            <div id="section3" class="content-section">
+            <div id="section3" class="content-section class">
                 <h1>Class</h1>
                 <p>I was an adventurer like you once, until I took an arrow to the knee.</p>
             </div>
-            <div id="section4" class="content-section">
+            <div id="section4" class="content-section stats">
                 <h1>Stats</h1>
             </div>
-            <div id="section5" class="content-section">
+            <div id="section5" class="content-section class">
                 <h1>Inventory</h1>
             </div>
         </main>
