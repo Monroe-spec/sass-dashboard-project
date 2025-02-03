@@ -1,0 +1,54 @@
+commit 48350ea1c83e2718dca1e21906fb6af0259c3b32
+Author: Casey_Redden <kctredden@gmail.com>
+Date:   Tue Jan 28 23:47:13 2025 -0700
+
+    I added a taskbar at the top of the page, and modified the dashboard buttons to work a little better.
+
+commit e4279626542234de5855266677d0310dd9cb5cf4
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Tue Jan 28 10:07:20 2025 -0700
+
+    added the main section and made the buttons switch betwen the different sections.
+
+commit 9915695910466c9e8ce2f1856a800732c114c943
+Author: Casey_Redden <kctredden@gmail.com>
+Date:   Mon Jan 27 19:40:00 2025 -0700
+
+    made minor changes to dashboard height.
+
+commit fb768e1f75e301711b994b487e01994251eea77f
+Author: Casey_Redden <kctredden@gmail.com>
+Date:   Mon Jan 27 19:33:05 2025 -0700
+
+    I made MAJOR improvements to the dashboard.
+
+commit 4889e530b9ec9d9dc2141ece505efa4dbbf2d068
+Author: Casey_Redden <kctredden@gmail.com>
+Date:   Mon Jan 27 15:54:44 2025 -0700
+
+    repositioned dashboard buttons and cloned project to desktop
+
+commit 7f5c985b8a94fc0774aa137b3708c0d048b5b019
+Merge: fb823e8 1d8d88c
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Fri Jan 24 10:56:56 2025 -0700
+
+    Merge branch 'main' of github.com:Monroe-spec/sass-dashboard-project
+
+commit fb823e8c061b7c37e3f61eaee8c4ae120d71d478
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Fri Jan 24 10:53:58 2025 -0700
+
+    added basic html and css to get started.
+
+commit 1d8d88c05238ed91b3c1647cd8d7291284f60784
+Author: Monroe-spec <monroe.prgm@gmail.com>
+Date:   Fri Jan 24 10:51:42 2025 -0700
+
+    picture
+
+commit 9125b34ff46ed46d641604b713c0aa406434d3d6
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Fri Jan 24 09:02:40 2025 -0700
+
+    Setup the repo with necessary files/directories.
